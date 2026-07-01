@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Press+Start+2P&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-minecraft: "Press Start 2P", monospace;
+  
+  --color-primary: #F15A59;
+  --color-secondary: #FF7A6B;
+  --color-dark: #0F1117;
+  --color-custom-bg: #171A22;
+  --color-custom-card: #232734;
+  --color-custom-text: #FFFFFF;
+  --color-custom-text-sec: #B9BEC9;
+  --color-success-custom: #49D17D;
+  --color-warning-custom: #FFC857;
+  --color-danger-custom: #FF6464;
+  --color-accent-custom: #7BD3FF;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-custom-bg);
+    color: var(--color-custom-text);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0F1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #232734;
+  border-radius: 5px;
+  border: 2px solid #0F1117;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F15A59;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+

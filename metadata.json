@@ -1,0 +1,6 @@
+{
+  "name": "EVERY SMP",
+  "description": "Selamat Datang di EVERY SMP, tempat petualangan Minecraft Anda menjadi lebih seru dengan berbagai fitur unik, ekonomi stabil, komunitas ramah, dan rank premium.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
