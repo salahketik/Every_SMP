@@ -64,7 +64,7 @@ export default function Navbar() {
           className="flex items-center gap-3 cursor-pointer group"
         >
           <img
-            src="/src/assets/images/every_smp_logo_new_1782911173416.jpg"
+            src="/every_smp_logo.jpg"
             alt="EVERY SMP Logo"
             referrerPolicy="no-referrer"
             className="w-10 h-10 rounded-xl border border-primary/30 group-hover:border-primary group-hover:scale-105 transition-all"

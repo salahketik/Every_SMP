@@ -15,7 +15,7 @@ export default function HeroSection() {
       {/* Background Image with Cinematic Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_bg_1782910521831.jpg"
+          src="/hero_bg.jpg"
           alt="EVERY SMP Floating Island Minecraft Theme"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover scale-105 select-none pointer-events-none brightness-[0.4] contrast-[1.1]"
@@ -45,7 +45,7 @@ export default function HeroSection() {
           
           <div className="relative w-36 h-36 md:w-44 md:h-44 bg-dark/90 p-2.5 rounded-[28px] border-2 border-primary/50 shadow-2xl overflow-hidden group-hover:border-secondary transition-all duration-300">
             <img
-              src="/src/assets/images/every_smp_logo_new_1782911173416.jpg"
+              src="/every_smp_logo.jpg"
               alt="EVERY SMP Premium Logo"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover rounded-2xl"

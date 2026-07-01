@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start text-center md:text-left gap-3">
             <div className="flex items-center gap-3">
               <img
-                src="/src/assets/images/every_smp_logo_new_1782911173416.jpg"
+                src="/every_smp_logo.jpg"
                 alt="EVERY SMP Logo"
                 referrerPolicy="no-referrer"
                 className="w-10 h-10 rounded-xl border border-primary/20"

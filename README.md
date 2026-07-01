@@ -1,7 +1,7 @@
 # EVERY SMP - Official Landing Page 🎮
 
 <div align="center">
-  <img src="src/assets/images/every_smp_logo_new_1782911173416.jpg" alt="EVERY SMP Logo" width="200" style="border-radius: 28px; box-shadow: 0 20px 50px rgba(241, 90, 89, 0.3);" />
+  <img src="public/every_smp_logo.jpg" alt="EVERY SMP Logo" width="200" style="border-radius: 28px; box-shadow: 0 20px 50px rgba(241, 90, 89, 0.3);" />
   
   <h3>Selamat Datang di EVERY SMP</h3>
   <p><i>Tempat Petualanganmu Menjadi Lebih Seru Dengan Berbagai Fitur Unik.</i></p>
@@ -12,7 +12,7 @@
     <a href="https://discord.gg/EnVQ8FZ6V6"><strong>Discord Server</strong></a>
   </p>
 
-  <img src="src/assets/images/hero_bg_1782910521831.jpg" alt="EVERY SMP Landing Page Banner" width="100%" style="border-radius: 16px; margin-top: 20px;" />
+  <img src="public/hero_bg.jpg" alt="EVERY SMP Landing Page Banner" width="100%" style="border-radius: 16px; margin-top: 20px;" />
 </div>
 
 ---
